@@ -11,22 +11,24 @@
     {
       "name": "encode-html-entities",
       "title": "encode-html-entities",
-      "description": "",
+      "description": "Encode selected text to HTML entities",
       "mode": "no-view"
     },
     {
       "name": "decode-html-entities",
       "title": "decode-html-entities",
-      "description": "",
+      "description": "Decode selected text from HTML entities",
       "mode": "no-view"
     }
   ],
   "dependencies": {
     "@raycast/api": "^1.83.1",
-    "@raycast/utils": "^1.17.0"
+    "@raycast/utils": "^1.17.0",
+    "he": "1.2.0"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^1.0.11",
+    "@types/he": "1.2.3",
     "@types/node": "20.8.10",
     "@types/react": "18.3.3",
     "eslint": "^8.57.0",
